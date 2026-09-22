@@ -33,3 +33,29 @@ const myFunction = function(){
 }
 
 console.log(typeof anotherId);
+
+
+//Stack(Primitive) , Heap(Non-Primitive)
+
+let myOfficialName = "dakshdebugs"
+
+let newName = myOfficialName
+newName = "dakshace";
+
+console.log(myOfficialName);
+console.log(newName);
+
+let userOne = {
+    email : "user@google.com" ,
+    upi : "user@ybl"
+}
+
+let userTwo = userOne
+userTwo.email = "dakshgaur10@google.com"
+
+console.log(userOne.email);
+console.log(userTwo.email);
+
+
+
+
